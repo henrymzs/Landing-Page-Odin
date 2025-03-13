@@ -1,0 +1,37 @@
+.call_section {
+    display: flex;
+    justify-content: center;
+}
+.call_container {
+    margin-top: 80px;
+    padding: 40px;
+    width: 50%;
+    background-color: #3B82F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text_primary {
+    color: var(--text-color);
+}
+
+.text_secondary {
+    color: var(--text-color);
+}
+
+.call_btn {
+    color: var(--text-color);
+    cursor: pointer;
+    padding: 0.4rem;
+    background-color: transparent;
+    border-style: solid;
+    border-color: var(--text-color);
+    cursor: pointer;
+    border-radius: 8px;
+    width: 6rem;
+}
+
+.call_btn:hover {
+    background-color: var(--btn-hover);
+}

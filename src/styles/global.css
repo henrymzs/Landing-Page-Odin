@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-background: #1F2937;
+    --text-color: #FFFFFF;
+
+    --header: #F9FAF8;
+    --header-logo-text: 24px;
+    --header-secondary-size: 18px;
+    
+    --hero-main-text: 48px;
+    --hero-main-weight: 900;
+
+    --hero-secondary: #696b6e;
+    --hero-secondary-text: 18px;
+
+    --btn-color: #3882F6;
+    --btn-hover: #005df1; 
+
+    --information-header: #1F2937;
+    --information-size: 36px;
+    --information-weight: 900;
+
+    --background-section: #E5E7EB;
+
+    --background-quote: #1F2937;
+    --quote-font-size: 36px;
+    --quote-font-style: italic;
+    --quote-weight: light;
+}
+
+body {
+    font-family: "Roboto", Arial, Helvetica;
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

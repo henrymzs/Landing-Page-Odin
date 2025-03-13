@@ -1,0 +1,24 @@
+.quote_section {
+    background-color: var(--background-section);
+    padding: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.quote_info {
+    font-size: var(--quote-font-size);
+    font-style: var(--quote-font-style);
+    color: var(--background-quote);
+    margin-bottom: 20px;
+    width: 42ch;
+}
+
+
+.quote_author {
+    font-size: 20px;
+    color: var(--background-quote);
+    font-weight: 900;
+    text-align: right;
+}

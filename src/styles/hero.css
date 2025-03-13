@@ -1,0 +1,39 @@
+.hero_main {
+    background-color: var(--dark-background);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6rem;
+}
+
+.hero_image {
+    width: 500px;
+    background-color: #6D747D;
+    max-width: 500px;
+    height: 220px;
+}
+
+.hero_main_text {
+    font-size: var(--hero-main-text);
+    font-weight: var(--hero-main-weight);
+    width: 12ch;
+}
+
+.hero_p {
+    width: 45ch;
+}
+
+.btn {
+    margin-top: 12px;
+    padding: 0.4rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 6rem;
+    background-color: var(--btn-color);
+    color: var(--header);
+}
+
+.btn:hover {
+    background-color: var(--btn-hover);
+}
+
